@@ -10,7 +10,9 @@ const CarouselSlide = ({ imgSrc, altText, title, description }) => {
             <div className="absolute bottom-0 left-0 flex items-center p-20 w-2/3 text-left">
                 <div className="text-white px-4 md:px-8 flex flex-col space-y-2">
                     <h2 className="text-5xl font-bold mb-4">{title}</h2>
-                    <p className="text-xl line-clamp-3">{description}</p>
+                    <p className="text-xl line-clamp-3 leading-relaxed">
+                        {description}
+                    </p>
                 </div>
             </div>
         </div>
