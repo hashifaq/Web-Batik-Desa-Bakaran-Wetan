@@ -16,6 +16,11 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         zilla: ['Zilla Slab', 'serif'],
       },
+      colors: {
+        darkbrown: "#403838",
+        lightgrey: "#E2E1E1",
+        lightbeige: "#F7E0C3",
+      },
     },
   },
   plugins: [
