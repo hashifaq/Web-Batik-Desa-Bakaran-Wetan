@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --brown: #403838;
+  --grey: #E2E1E1;
+  --yellow: #F7E0C3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,4 +33,33 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-brown {
+  background: var(--brown);
+}
+
+.bg-grey {
+  background: var(--grey);
+}
+
+.bg-yellow {
+  background: var(--yellow);
+}
+
+.img-logo {
+	width: 35px;
+	height:75px;
+}
+
+.logo-text {
+	width: 65px;
+	height: 45px;
+}
+
+.line {
+  width: 100%; /* Adjust width as needed */
+  height: 1px; /* Adjust height for line thickness */
+  background-color: #999; /* Set line color */
+  margin-top: 3px; /* Adjust margin for line position */
 }
