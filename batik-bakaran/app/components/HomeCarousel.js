@@ -11,7 +11,7 @@ export default function HomeCarousel() {
                 showThumbs={false}
                 autoPlay={true}
                 infiniteLoop={true}
-                interval={3000}
+                interval={30000}
             >
                 <CarouselSlide
                     imgSrc="/assets/carousel-sejarah.png"

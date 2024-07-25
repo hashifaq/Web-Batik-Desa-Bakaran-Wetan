@@ -9,14 +9,14 @@ export default function Home() {
         <main>
             <Navbar></Navbar>
             <HomeCarousel />
-            <div className="flex bg-white p-20 gap-20">
+            <div className="flex bg-white px-20 py-16 gap-20">
                 <img
                     src="/assets/logo.png"
                     alt="Logo Museum"
                     className="object-scale-down max-w-96"
                 />
                 <div className="flex flex-col text-darkbrown gap-8 justify-center">
-                    <h2 className="text-3xl font-bold leading-relaxed">
+                    <h2 className="text-3xl font-bold leading-relaxed font-zilla">
                         Museum Batik Bakaran Sudewi: Melestarikan Warisan,
                         Menginspirasi Generasi!
                     </h2>
@@ -32,11 +32,11 @@ export default function Home() {
                 </div>
             </div>
             <div className="bg-lightgrey p-20 text-center">
-                <h2 className="text-5xl font-bold text-darkbrown">
+                <h2 className="text-5xl font-bold text-darkbrown font-zilla">
                     Kenapa Harus ke Museum Batik Bakaran?
                 </h2>
             </div>
-            <div className="flex flex-col bg-white px-40 py-24 gap-20">
+            <div className="flex flex-col bg-white px-40 py-24 gap-20 font-poppins">
                 <FeatureSection
                     number={1}
                     title="Koleksi Batik Tulis"

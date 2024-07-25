@@ -21,7 +21,7 @@ export default function Navbar() {
                         <div>
                             <div className="ml-4 flex items-center space-x-6">
                                 <a
-                                    href=""
+                                    href="/"
                                     className="text-white text-base font-semibold hover:bg-white hover:text-black rounded-lg p-2"
                                 >
                                     Beranda
@@ -39,13 +39,13 @@ export default function Navbar() {
                                     Tentang Kami
                                 </a>
                                 <a
-                                    href=""
+                                    href="/ragam-batik"
                                     className="text-white text-base font-semibold hover:bg-white hover:text-black rounded-lg p-2"
                                 >
                                     Ragam Batik
                                 </a>
                                 <a
-                                    href=""
+                                    href="/cara-membatik"
                                     className="text-white text-base font-semibold hover:bg-white hover:text-black rounded-lg p-2"
                                 >
                                     Cara Membatik
@@ -54,7 +54,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                <div class="line"></div>
+                <div className="line"></div>
             </nav>
         </main>
     );
