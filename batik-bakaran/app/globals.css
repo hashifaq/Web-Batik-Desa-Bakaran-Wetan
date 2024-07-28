@@ -64,3 +64,12 @@ body {
   background-color: #999; /* Set line color */
   margin-top: 3px; /* Adjust margin for line position */
 }
+
+.font-zilla {
+  font-family: 'Zilla Slab', serif;
+}
+
+.text-yellow {
+  color: var(--yellow);
+}
+
