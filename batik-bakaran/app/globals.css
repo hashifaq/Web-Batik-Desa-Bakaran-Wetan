@@ -67,9 +67,18 @@ body {
 }
 
 .font-zilla {
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Zilla Slab', sans-serif;
 }
+
+.poppins {
+    font-family: 'poppins', serif;
+}  
 
 .text-yellow {
   color: var(--yellow);
 }
+
+/* .mbbs {
+  width: 250;
+  height: 80
+} */
