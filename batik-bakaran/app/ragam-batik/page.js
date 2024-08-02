@@ -28,16 +28,21 @@ export default function RagamBatik() {
                     />
                 </div>
             </div>
-            <div className="mt-24">
+            {/* <div className="mt-24">
                 <div className="flex justify-end items-center mb-8">
                     <div className="">
                         <div className="flex text-6xl text-white font-zilla font-bold mb-3 mr-12 ml-7">Jenis-jenis Batik</div>
                         <div className="w-full mt-2 h-1 bg-yellow"></div>
                     </div>
                 </div>
+            </div> */}
+            <div className="flex items-center justify-center mt-12 mb-14">
+                <div className="h-2 bg-yellow flex-[70]"></div>
+                <div className="px-6 text-6xl text-white font-bold italic font-zilla">Jenis-jenis Batik</div>
+                <div className="h-2 bg-yellow flex-[10]"></div>
             </div>
             <div className="flex justify-center items-center mt-14">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-0.5 justify-items-center items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-44 justify-items-center items-center">
                     <MotifCard  
                         imgSrc="/assets/1.jpg" 
                         title="Gandrung Kapirangu" 
