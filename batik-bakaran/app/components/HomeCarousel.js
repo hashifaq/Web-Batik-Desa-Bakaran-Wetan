@@ -9,9 +9,10 @@ export default function HomeCarousel() {
         <div>
             <Carousel
                 showThumbs={false}
-                autoPlay={true}
-                infiniteLoop={true}
-                interval={30000}
+                autoPlay
+                infiniteLoop
+                useKeyboardArrows
+                interval={3000}
             >
                 <CarouselSlide
                     imgSrc="/assets/carousel-sejarah.png"
