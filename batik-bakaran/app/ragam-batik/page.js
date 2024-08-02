@@ -12,11 +12,11 @@ export default function RagamBatik() {
         <div className="flex min-h-screen flex-col bg-brown">
             <Navbar />
             <div className="flex justify-between">
-                <div className={`text-yellow text-7xl mt-14 ml-40 ${zilla_Slab.className}`}>
+                <div className={`text-yellow text-8xl mt-14 ml-40 ${zilla_Slab.className}`}>
                     <div>
-                        <div className="font-bold italic mb-2.5">Koleksi Batik</div>
-                        <div className="text-white italic mb-2.5">Museum Batik</div>
-                        <div className="text-white italic mb-2.5">Bakaran</div>
+                        <div className="font-bold  mb-4">Koleksi Batik</div>
+                        <div className="text-white  mb-4">Museum Batik</div>
+                        <div className="text-white  mb-4">Bakaran</div>
                     </div>
                 </div>
                 <div className="flex flex-col px-3 pb-3 bg-white mr-40">
@@ -28,6 +28,18 @@ export default function RagamBatik() {
                     />
                 </div>
             </div>
+            <div className="flex justify-between items-center mt-28">
+                <div>
+                    <img 
+                        loading="lazy" 
+                        src="/assets/rb.png" 
+                        className="max-w-md h-auto ml-24"
+                    />
+                </div>
+                <div className="bg-white px-12 py-8 mt-7 text-brown leading-9 text-lg font-semibold">
+                    Di museum ini, Anda dapat menemukan berbagai jenis batik tulis khas Bakaran yang memukau dengan keindahan dan keunikan masing-masing motifnya. Setiap kain batik yang dipamerkan tidak hanya menampilkan keahlian para pengrajin, tetapi juga mengisahkan cerita dan filosofi yang mendalam dari setiap motifnya.
+                </div>
+            </div>
             {/* <div className="mt-24">
                 <div className="flex justify-end items-center mb-8">
                     <div className="">
@@ -36,9 +48,9 @@ export default function RagamBatik() {
                     </div>
                 </div>
             </div> */}
-            <div className="flex items-center justify-center mt-12 mb-14">
+            <div className="flex items-center justify-center mt-32 mb-14">
                 <div className="h-2 bg-yellow flex-[70]"></div>
-                <div className="px-6 text-6xl text-white font-bold italic font-zilla">Jenis-jenis Batik</div>
+                <div className="px-6 text-6xl text-white font-bold font-zilla">Jenis-jenis Batik</div>
                 <div className="h-2 bg-yellow flex-[10]"></div>
             </div>
             <div className="flex justify-center items-center mt-14">

@@ -16,13 +16,13 @@ export default function TentangKami() {
                 <div className="text-5xl font-bold italic font-zilla">Tentang Museum Batik</div>
                 <div className="flex items-center bg-yellow w-1/2 h-3 mt-4"></div>
             </div> */}
-            <div className="flex items-center justify-center mt-12">
+            <div className="flex items-center justify-center mt-20">
                 <div className="h-2 bg-yellow flex-[1]"></div>
-                <div className="px-6 text-5xl text-brown font-bold italic font-zilla">Tentang Museum Batik</div>
+                <div className="px-6 text-5xl text-brown font-bold font-zilla">Tentang Museum Batik</div>
                 <div className="h-2 bg-yellow flex-[1_1_50%]"></div>
             </div>
 
-            <div className="flex justify-center items-center relative mt-16 mb-16 w-full">
+            <div className="flex justify-center items-center relative mt-20 mb-16 w-full">
                 <img
                     src="/assets/mbbs2.png"
                     className="max-w-3xl h-auto"
