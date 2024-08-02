@@ -33,7 +33,7 @@ export default function Navbar() {
                                     Sejarah
                                 </a>
                                 <a
-                                    href=""
+                                    href="/tentang-kami"
                                     className="text-white text-base font-semibold hover:bg-white hover:text-black rounded-lg p-2"
                                 >
                                     Tentang Kami
