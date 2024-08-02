@@ -18,7 +18,7 @@ export default function TentangKami() {
             </div> */}
             <div className="flex items-center justify-center mt-20">
                 <div className="h-2 bg-yellow flex-[1]"></div>
-                <div className="px-6 text-5xl text-brown font-bold font-zilla">Tentang Museum Batik</div>
+                <div className="px-6 text-5xl text-darkbrown font-bold font-zilla">Tentang Museum Batik</div>
                 <div className="h-2 bg-yellow flex-[1_1_50%]"></div>
             </div>
 
@@ -29,7 +29,7 @@ export default function TentangKami() {
                 />
             </div>
             <div className="flex justify-center items-center">
-                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold">
+                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold text-darkbrown">
                     Museum Batik Bakaran Sudewi adalah destinasi wisata edukasi yang didedikasikan untuk melestarikan dan memperkenalkan seni batik tulis khas Bakaran. Diresmikan pada Oktober 2022, museum ini menjadi pusat pengetahuan dan apresiasi terhadap warisan budaya yang kaya dan beragam ini.
                 </div>
             </div>
@@ -48,7 +48,7 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold">
+                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold  text-darkbrown">
                     Museum Batik Bakaran Sudewi adalah destinasi wisata edukasi yang didedikasikan untuk melestarikan dan memperkenalkan seni batik tulis khas Bakaran. Diresmikan pada Oktober 2022, museum ini menjadi pusat pengetahuan dan apresiasi terhadap warisan budaya yang kaya dan beragam ini.
                 </div>
             </div>
@@ -67,7 +67,7 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold">
+                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold text-darkbrown">
                     Museum Batik Bakaran Sudewi adalah destinasi wisata edukasi yang didedikasikan untuk melestarikan dan memperkenalkan seni batik tulis khas Bakaran. Diresmikan pada Oktober 2022, museum ini menjadi pusat pengetahuan dan apresiasi terhadap warisan budaya yang kaya dan beragam ini.
                 </div>
             </div>
@@ -86,7 +86,7 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold">
+                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold text-darkbrown">
                     Museum Batik Bakaran Sudewi adalah destinasi wisata edukasi yang didedikasikan untuk melestarikan dan memperkenalkan seni batik tulis khas Bakaran. Diresmikan pada Oktober 2022, museum ini menjadi pusat pengetahuan dan apresiasi terhadap warisan budaya yang kaya dan beragam ini.
                 </div>
             </div>
@@ -105,7 +105,7 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center mb-20">
-                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold">
+                <div className="bg-grey max-w-7xl p-5 text-lg leading-8 font-semibold text-darkbrown">
                     Museum Batik Bakaran Sudewi adalah destinasi wisata edukasi yang didedikasikan untuk melestarikan dan memperkenalkan seni batik tulis khas Bakaran. Diresmikan pada Oktober 2022, museum ini menjadi pusat pengetahuan dan apresiasi terhadap warisan budaya yang kaya dan beragam ini.
                 </div>
             </div>
