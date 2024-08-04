@@ -18,25 +18,25 @@ export default function HomeCarousel() {
                     imgSrc="/assets/carousel-sejarah.png"
                     altText="Sejarah Batik"
                     title="Sejarah Batik"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim venenatis enim eget porttitor. Cras ultrices metus leo, sit amet pellentesque eros auctor sed. Sed mi leo, facilisis sed dictum vitae, gravida sed mauris..."
+                    description="Selami sejarah panjang dan kaya dari Batik Bakaran yang telah menjadi bagian integral dari warisan budaya Indonesia. Temukan bagaimana batik ini berkembang dari masa ke masa dan mengapa ia tetap mempesona hingga hari ini."
                 />
                 <CarouselSlide
                     imgSrc="/assets/carousel-tentang.png"
                     altText="Tentang Museum"
                     title="Tentang Museum"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim venenatis enim eget porttitor. Cras ultrices metus leo, sit amet pellentesque eros auctor sed. Sed mi leo, facilisis sed dictum vitae, gravida sed mauris..."
+                    description="Kenali Museum Batik Bakaran Sudewi, tempat di mana warisan budaya dan seni batik hidup dan bernafas. Pelajari lebih lanjut tentang misi kami, sejarah museum, dan dedikasi kami dalam melestarikan dan mempromosikan seni batik."
                 />
                 <CarouselSlide
                     imgSrc="/assets/carousel-jenis.png"
                     altText="Jenis Batik"
                     title="Jenis Batik"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim venenatis enim eget porttitor. Cras ultrices metus leo, sit amet pellentesque eros auctor sed. Sed mi leo, facilisis sed dictum vitae, gravida sed mauris..."
+                    description="Jelajahi berbagai jenis Batik Bakaran yang memukau dengan beragam motif dan makna filosofisnya. Dari yang tradisional hingga kontemporer, temukan keindahan dan keragaman yang ditawarkan oleh batik khas Bakaran."
                 />
                 <CarouselSlide
                     imgSrc="/assets/carousel-cara.png"
                     altText="Cara Membatik"
                     title="Cara Membatik"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim venenatis enim eget porttitor. Cras ultrices metus leo, sit amet pellentesque eros auctor sed. Sed mi leo, facilisis sed dictum vitae, gravida sed mauris..."
+                    description="Kenali dan pahami langkah-langkah mendetail dalam proses pembuatan Batik Bakaran dan temukan seni di balik setiap goresan malam. Dari desain hingga pewarnaan, pelajari cara membatik dan ciptakan karya seni Anda sendiri."
                 />
             </Carousel>
         </div>

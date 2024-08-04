@@ -12,7 +12,7 @@ const CarouselSlide = ({ imgSrc, altText, title, description }) => {
                     <h2 className="text-5xl font-bold mb-4 font-zilla">
                         {title}
                     </h2>
-                    <p className="text-xl line-clamp-3 leading-relaxed font-poppins">
+                    <p className="text-xl line-clamp-3 leading-loose font-poppins">
                         {description}
                     </p>
                 </div>
