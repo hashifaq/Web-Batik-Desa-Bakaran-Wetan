@@ -7,7 +7,7 @@ export default function ContohCara({ number, title, imgSrc, altText }) {
                 </div>
                 <div className="flex flex-col">
                     <img src={imgSrc} alt={altText} className="h-48 w-auto" />
-                    <div className="font-poppins font-semibold text-center">
+                    <div className="font-poppins font-semibold text-white text-center">
                         {title}
                     </div>
                 </div>

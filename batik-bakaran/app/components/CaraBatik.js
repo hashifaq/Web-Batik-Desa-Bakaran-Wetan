@@ -10,7 +10,7 @@ export default function CaraBatik({
     return (
         <>
             {layout === 1 ? (
-                <div className="flex m-20 gap-20 items-center justify-center">
+                <div className="flex m-28 gap-20 items-center justify-center">
                     <div className="w-1/5">
                         <img src={imgSrc} alt={altText} className="" />
                     </div>
@@ -26,7 +26,7 @@ export default function CaraBatik({
             ) : layout === 2 ? (
                 <div className="flex flex-col mx-28 my-12 gap-8 items-center justify-center">
                     <div className="flex justify-center items-center">
-                        <div className="w-2/3">
+                        <div className="w-3/4">
                             <img src={imgSrc} alt={altText} className="" />
                         </div>
                     </div>
@@ -41,8 +41,28 @@ export default function CaraBatik({
                         </div>
                     </div>
                 </div>
+                // <div className="flex mx-28 my-12 gap-8 items-center justify-center">
+                //     <div>
+                //     <div className="flex flex-row justify-center items-center">
+                //         <div className="w-full h-auto">
+                //             <img src={imgSrc} alt={altText} className="" />
+                //         </div>
+                //     </div>
+                //     <div className="flex flex-col gap-6 h-3/4">
+                //         <div className="flex items-center justify-center text-center">
+                //             <div className="text-4xl font-poppins tracking-wider font-bold bg-white text-darkbrown p-2 w-fit">
+                //                 {title}
+                //             </div>
+                //         </div>
+                //         <div className="text-lg font-semibold leading-loose text-white tracking-wider">
+                //             {description}
+                //         </div>
+                //     </div>
+                //     </div>
+                    
+                // </div>
             ) : layout === 3 ? (
-                <div className="mt-4">
+                <div className="mt-16">
                     <div className="flex flex-col items-center justify-center gap-0">
                         <div className="flex flex-row items-center gap-16 h-60">
                             <ContohCara
