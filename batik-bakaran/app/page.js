@@ -9,18 +9,18 @@ export default function Home() {
         <main>
             <Navbar></Navbar>
             <HomeCarousel />
-            <div className="flex bg-white px-20 py-16 gap-20">
+            <div className="flex flex-col items-center lg:flex-row bg-white px-6 md:px-20 py-8 md:py-16 gap-8 lg:gap-20">
                 <img
                     src="/assets/logo.png"
                     alt="Logo Museum"
-                    className="object-scale-down max-w-96"
+                    className="object-scale-down max-w-72 md:max-w-96"
                 />
-                <div className="flex flex-col text-darkbrown gap-8 justify-center">
-                    <h2 className="text-3xl font-bold leading-relaxed font-zilla">
+                <div className="flex flex-col text-darkbrown gap-4 justify-center lg:gap-8">
+                    <h2 className="text-xl md:text-3xl font-bold leading-relaxed md:leading-relaxed text-center lg:text-left font-zilla">
                         Museum Batik Bakaran Sudewi: Melestarikan Warisan,
                         Menginspirasi Generasi!
                     </h2>
-                    <p className="text-lg leading-loose text-justify">
+                    <p className="text-sm leading-loose md:text-lg md:leading-loose text-center sm:text-justify">
                         Museum Batik Bakaran Sudewi, berlokasi di Desa Bakaran
                         Wetan, Kecamatan Juwana, Kabupaten Pati, adalah
                         destinasi wisata edukasi yang menawarkan pengalaman unik
@@ -31,12 +31,13 @@ export default function Home() {
                     </p>
                 </div>
             </div>
-            <div className="bg-lightgrey p-20 text-center">
-                <h2 className="text-5xl font-bold text-darkbrown font-zilla">
+
+            <div className="bg-lightgrey p-8 md:p-12 lg:p-20 text-center">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-darkbrown font-zilla">
                     Kenapa Harus ke Museum Batik Bakaran?
                 </h2>
             </div>
-            <div className="flex flex-col bg-white px-40 py-24 gap-20 font-poppins">
+            <div className="flex flex-col bg-white px-10 md:px-20 lg:px-40 py-12 md:py-20 lg:py-24 gap-10 md:gap-16 lg:gap-20 font-poppins">
                 <FeatureSection
                     number={1}
                     title="Koleksi Batik Tulis"
