@@ -3,16 +3,20 @@ import React from "react";
 const CarouselSlide = ({ imgSrc, altText, title, description }) => {
     return (
         <div className="relative">
-            <div className="relative w-full">
-                <img src={imgSrc} alt={altText} className="w-full h-auto" />
+            <div className="relative w-full h-[calc(100vw*(5/6))] sm:h-auto">
+                <img
+                    src={imgSrc}
+                    alt={altText}
+                    className="w-full h-full object-cover object-center"
+                />
                 <div className="absolute inset-0 bg-darkbrown opacity-60"></div>
             </div>
-            <div className="absolute bottom-0 left-0 flex items-center py-24 px-12 w-2/3 text-left">
-                <div className="text-white px-4 md:px-8 flex flex-col space-y-2">
-                    <h2 className="text-5xl font-bold mb-4 font-zilla">
+            <div className="absolute bottom-0 left-0 flex items-center py-12 lg:py-24 px-4 lg:px-12 w-5/6 md:w-3/4 lg:w-2/3 text-left">
+                <div className="text-white px-8 flex flex-col lg:gap-2">
+                    <h2 className="text-3xl lg:text-5xl font-bold mb-2 lg:mb-4 font-zilla">
                         {title}
                     </h2>
-                    <p className="text-xl line-clamp-3 leading-loose font-poppins">
+                    <p className="text-sm lg:text-xl line-clamp-3 leading-loose lg:leading-loose font-poppins">
                         {description}
                     </p>
                 </div>
