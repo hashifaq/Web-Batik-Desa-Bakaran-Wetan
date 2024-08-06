@@ -59,6 +59,16 @@ body {
     height: 45px;
 }
 
+.img-logo1 {
+    width: 30px;
+    height: 55px;
+}
+
+.logo-text1 {
+    width: 55px;
+    height: 38px;
+}
+
 .line {
     width: 100%; /* Adjust width as needed */
     height: 1px; /* Adjust height for line thickness */
