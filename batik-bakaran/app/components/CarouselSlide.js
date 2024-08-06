@@ -3,7 +3,7 @@ import React from "react";
 const CarouselSlide = ({ imgSrc, altText, title, description }) => {
     return (
         <div className="relative">
-            <div className="relative w-full h-[calc(100vw*(5/6))] sm:h-auto">
+            <div className="relative w-full h-[calc(100vw*(5/6))] md:h-auto">
                 <img
                     src={imgSrc}
                     alt={altText}
