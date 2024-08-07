@@ -20,7 +20,7 @@ export default function TentangKami() {
             <div className="flex items-center justify-center mt-4 md:mt-8 lg:mt-20">
                 <div className="h-1.5 md:h-2 bg-yellow flex-[1_1_3%] lg:flex-[1]"></div>
                 <div className="px-2 md:px-4 text-xl md:text-4xl lg:px-6 lg:text-5xl text-darkbrown font-bold font-zilla">Tentang Museum Batik</div>
-                <div className="h-1.5 md:h-2 bg-yellow flex-[1_1_38%] lg:flex-[1_1_50%]"></div>
+                <div className="h-1.5 md:h-2 bg-yellow flex-[1_1_30%] lg:flex-[1_1_50%]"></div>
             </div>
 
             <div className="flex justify-center items-center relative mt-8 md:mt-14 lg:mt-20 mb-16 w-full">
@@ -106,8 +106,8 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center mb-20 text-justify">
-                <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg leading-8 font-semibold text-darkbrown">
-                Di Museum Batik Bakaran, Anda tidak hanya menemukan kain batik yang memukau, tetapi juga berbagai produk jadi seperti baju, tas, dan aksesori. Gambar menunjukkan produk batik siap pakai, termasuk pakaian untuk dewasa dan anak-anak. Pengunjung dapat membeli barang-barang batik khas Bakaran sebagai cendera mata. Museum ini mendukung pengrajin lokal dengan menawarkan produk berkualitas tinggi yang siap pakai.
+                <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
+                    Di Museum Batik Bakaran, Anda tidak hanya menemukan kain batik yang memukau, tetapi juga berbagai produk jadi seperti baju, tas, dan aksesori. Gambar menunjukkan produk batik siap pakai, termasuk pakaian untuk dewasa dan anak-anak. Pengunjung dapat membeli barang-barang batik khas Bakaran sebagai cendera mata. Museum ini mendukung pengrajin lokal dengan menawarkan produk berkualitas tinggi yang siap pakai.
                 </div>
             </div>
             <Footer />
