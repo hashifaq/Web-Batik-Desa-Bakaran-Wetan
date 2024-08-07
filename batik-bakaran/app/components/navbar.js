@@ -10,15 +10,15 @@ export default function Navbar() {
             <nav className="bg-brown relative">
                 <div className="px-8">
                     <div className="flex items-center justify-between h-25">
-                        <div className="flex items-center">
+                        <div className="flex items-center -ml-4 md:-ml-2">
                             <img
                                 src="/assets/logo-img.png"
-                                className="img-logo p-1 mr-2"
+                                className="img-logo1 md:img-logo p-1 mr-2"
                                 alt="Logo"
                             />
                             <img
                                 src="/assets/logo-text.png"
-                                className="logo-text p-1"
+                                className="logo-text1 md:logo-text p-1"
                                 alt="Logo"
                             />
                         </div>
