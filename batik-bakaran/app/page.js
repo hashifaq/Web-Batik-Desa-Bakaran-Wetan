@@ -37,7 +37,17 @@ export default function Home() {
                     Kenapa Harus ke Museum Batik Bakaran?
                 </h2>
             </div>
+            {/* ini mau dimasukin link youtube */}
             <div className="flex flex-col bg-white px-10 md:px-20 lg:px-40 py-12 md:py-20 lg:py-24 gap-10 md:gap-16 lg:gap-20 font-poppins">
+                <iframe
+                    src="https://www.youtube.com/embed/G5rSa_b1uak?si=sChEYWGnRff0Rzm_"
+                    title="Video Profil Museum Batik Bakaran Sudewi"
+                    frameborder="0"
+                    className="mx-auto mb-8 w-full md:w-4/5 lg:w-[60%] h-48 sm:h-72 md:h-80 lg:h-[450px]"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
+
                 <FeatureSection
                     number={1}
                     title="Koleksi Batik Tulis"

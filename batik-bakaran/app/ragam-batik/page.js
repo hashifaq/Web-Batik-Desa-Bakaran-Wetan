@@ -137,7 +137,6 @@ export default function RagamBatik() {
                     />
                 </div>
             </div>
-            <div className="line"></div>
             <Footer />
         </div>
     );
