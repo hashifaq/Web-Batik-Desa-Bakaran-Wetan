@@ -42,7 +42,7 @@ export default function Navbar() {
                                 Beranda
                             </a>
                             <a
-                                href=""
+                                href="/sejarah"
                                 className="text-white text-base font-semibold hover:bg-white hover:text-black rounded-lg p-2"
                             >
                                 Sejarah
