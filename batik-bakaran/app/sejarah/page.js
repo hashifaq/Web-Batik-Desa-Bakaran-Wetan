@@ -35,8 +35,8 @@ export default function Sejarah() {
                         dimulai sekitar tahun 1478 ketika Kerajaan Majapahit mengalami kemunduran akibat kudeta oleh Kerajaan 
                         Demak. Nyai Danowati, seorang punggawa Majapahit, melarikan diri ke barat bersama saudara-saudaranya 
                         dan tiba di sebuah pemukiman rawa-rawa yang dipenuhi pohon druju. Mereka menamai wilayah tersebut 
-                        "Juwana." Setelah melanjutkan perjalanan, Nyai Danowati menetap di sebuah tempat yang kemudian diberi 
-                        nama "Bakaran" setelah ia membakar babatan hutan yang menjadi batas wilayahnya.
+                        Juwana. Setelah melanjutkan perjalanan, Nyai Danowati menetap di sebuah tempat yang kemudian diberi 
+                        nama Bakaran setelah ia membakar babatan hutan yang menjadi batas wilayahnya.
                     </div>
                 </div>
                 <div className="text-black font-poppins text-sm lg:text-xl leading-loose text-justify py-12 px-10 lg:px-44" style={{ lineHeight: "2" }}>
@@ -75,7 +75,7 @@ export default function Sejarah() {
                         Seiring dengan kebangkitan tersebut, berbagai inovasi pun dilakukan dalam usaha mempertahankan 
                         kelestarian batik bakaran. Pada tahun 2011, sembilan motif Batik Bakaran telah berhasil mendapatkan 
                         hak paten dari Kemendikbud, menandai pengakuan resmi terhadap kekayaan motif tradisional ini. Lalu, 
-                        pada tahun 2013, salah satu motif batik ciptaan Mbah Bukhari, “Mina Tani”, terpilih sebagai seragam 
+                        pada tahun 2013, salah satu motif batik ciptaan Mbah Bukhari, Mina Tani, terpilih sebagai seragam 
                         resmi bagi ASN Kabupaten Pati.
                     </div>
                     <div>
