@@ -11,7 +11,7 @@ export default function HasilCarousel() {
                 autoPlay
                 infiniteLoop
                 useKeyboardArrows
-                interval={100000}
+                interval={3000}
             >
                 <div className="flex flex-col items-center justify-center mb-12">
                     <div className="flex flex-col gap-8">

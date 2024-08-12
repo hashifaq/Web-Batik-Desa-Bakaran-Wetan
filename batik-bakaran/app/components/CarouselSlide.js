@@ -1,6 +1,6 @@
 import React from "react";
 
-const CarouselSlide = ({ imgSrc, altText, title, description }) => {
+const CarouselSlide = ({ imgSrc, altText, linkRef, title, description }) => {
     return (
         <div className="relative">
             <div className="relative w-full h-[calc(100vw*(5/6))] md:h-auto">
@@ -13,9 +13,12 @@ const CarouselSlide = ({ imgSrc, altText, title, description }) => {
             </div>
             <div className="absolute bottom-0 left-0 flex items-center py-12 lg:py-24 px-4 lg:px-12 w-5/6 md:w-3/4 lg:w-2/3 text-left">
                 <div className="text-white px-8 flex flex-col lg:gap-2">
-                    <h2 className="text-3xl lg:text-5xl font-bold mb-2 lg:mb-4 font-zilla">
+                    <a
+                        href={linkRef}
+                        className="text-3xl lg:text-5xl font-bold mb-2 lg:mb-4 font-zilla hover:text-lightgrey"
+                    >
                         {title}
-                    </h2>
+                    </a>
                     <p className="text-sm lg:text-xl line-clamp-3 leading-loose lg:leading-loose font-poppins">
                         {description}
                     </p>
