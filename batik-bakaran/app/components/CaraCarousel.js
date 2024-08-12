@@ -108,7 +108,7 @@ export default function CaraCarousel() {
                 autoPlay
                 infiniteLoop
                 useKeyboardArrows
-                interval={100000}
+                interval={5000}
             >
                 {caraBatikItems}
             </Carousel>
