@@ -17,7 +17,7 @@ export default function RagamBatik() {
                     className="absolute inset-0 bg-center opacity-20 z-0" 
                     style={{ backgroundImage: "url('/assets/bg-jenis.png')" }}
                 ></div>
-                <div className="relative z-10 flex flex-col md:gap-20 lg:gap-44 md:flex-row">
+                <div className="relative z-10 flex flex-col md:gap-20 lg:gap-56 md:flex-row">
                     <div className={`flex justify-center font-bold text-4xl md:text-6xl mt-6 md:mt-14 md:ml-10 lg:text-8xl xl:ml-20 2xl:ml-40 ${zilla_Slab.className}`}>
                         <div>
                             <div className="text-yellow mb-2 md:mb-4">Koleksi Batik</div>
