@@ -1,6 +1,6 @@
 export default function MotifCard({ imgSrc, title, filosofi, harapan }) {
     return (
-        <div className="bg-white p-4 w-full max-w-lg mx-auto ">
+        <div className="bg-white p-4 w-full max-w-lg mx-auto text-darkbrown">
             <img src={imgSrc} alt={title} className="mb-6 h-auto shadow-xl" />
             <div className="text-2xl font-bold text-center mb-4">{title}</div>
             <div className="leading-7">

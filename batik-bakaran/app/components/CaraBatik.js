@@ -181,7 +181,7 @@ export default function CaraBatik({
                                     title="Kerikan & Remukan"
                                 />
                             </div>
-                            <div className="flex flex-row items-center gap-8 h-60 mb-12">
+                            <div className="flex flex-row items-center gap-8 h-60 mb-6">
                                 <ContohCara
                                     number={7}
                                     imgSrc="/assets/cara-contoh-7.png"

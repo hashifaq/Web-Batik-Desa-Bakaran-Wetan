@@ -42,7 +42,7 @@ export default function Home() {
                 <iframe
                     src="https://www.youtube.com/embed/G5rSa_b1uak?si=sChEYWGnRff0Rzm_"
                     title="Video Profil Museum Batik Bakaran Sudewi"
-                    frameborder="0"
+                    frameBorder="0"
                     className="mx-auto mb-8 w-full md:w-4/5 lg:w-[60%] h-48 sm:h-72 md:h-80 lg:h-[450px]"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
