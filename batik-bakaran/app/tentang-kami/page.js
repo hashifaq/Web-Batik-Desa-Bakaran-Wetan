@@ -12,11 +12,6 @@ export default function TentangKami() {
                 />
                 <div className="absolute top-0 left-0 w-full h-full bg-brown opacity-50"></div>
             </div>
-            {/* <div className="flex justify-between mt-20">
-                <div className="bg-yellow w-40 h-3 mt-4"></div>
-                <div className="text-5xl font-bold italic font-zilla">Tentang Museum Batik</div>
-                <div className="flex items-center bg-yellow w-1/2 h-3 mt-4"></div>
-            </div> */}
             <div className="flex items-center justify-center mt-4 md:mt-8 lg:mt-20">
                 <div className="h-1.5 md:h-2 bg-yellow flex-[1_1_3%] lg:flex-[1]"></div>
                 <div className="px-2 md:px-4 text-xl md:text-4xl lg:px-6 lg:text-5xl text-darkbrown font-bold font-zilla">Tentang Museum Batik</div>
@@ -105,6 +100,19 @@ export default function TentangKami() {
                     />
                 </div>
             </div>
+            <div className="flex justify-center items-center mb-20 text-justify">
+                <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
+                    Di Museum Batik Bakaran, Anda tidak hanya menemukan kain batik yang memukau, tetapi juga berbagai produk jadi seperti baju, tas, dan aksesori. Gambar menunjukkan produk batik siap pakai, termasuk pakaian untuk dewasa dan anak-anak. Pengunjung dapat membeli barang-barang batik khas Bakaran sebagai cendera mata. Museum ini mendukung pengrajin lokal dengan menawarkan produk berkualitas tinggi yang siap pakai.
+                </div>
+            </div>
+            <div className="flex justify-center items-center mb-16">
+            <div className="p-1.5 rounded-xl shadow-2xl bg-darkbrown">
+                    <div className="border-8 border-white rounded-lg overflow-hidden">
+                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Bf9Z9GbUGtuHJGtR7ZPRY7swI32Ol1M&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+                    </div>
+                </div>
+            </div>
+
             <div className="flex justify-center items-center mb-20 text-justify">
                 <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
                     Di Museum Batik Bakaran, Anda tidak hanya menemukan kain batik yang memukau, tetapi juga berbagai produk jadi seperti baju, tas, dan aksesori. Gambar menunjukkan produk batik siap pakai, termasuk pakaian untuk dewasa dan anak-anak. Pengunjung dapat membeli barang-barang batik khas Bakaran sebagai cendera mata. Museum ini mendukung pengrajin lokal dengan menawarkan produk berkualitas tinggi yang siap pakai.
