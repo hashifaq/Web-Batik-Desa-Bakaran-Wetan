@@ -106,12 +106,19 @@ export default function TentangKami() {
                 </div>
             </div>
             <div className="flex justify-center items-center mb-16">
-            <div className="p-1.5 rounded-xl shadow-2xl bg-darkbrown">
+                <div className="p-1.5 rounded-xl shadow-2xl bg-darkbrown">
                     <div className="border-8 border-white rounded-lg overflow-hidden">
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Bf9Z9GbUGtuHJGtR7ZPRY7swI32Ol1M&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+                        <iframe 
+                            src="https://www.google.com/maps/d/u/0/embed?mid=1Bf9Z9GbUGtuHJGtR7ZPRY7swI32Ol1M&ehbc=2E312F&noprof=1" 
+                            width="100%" 
+                            height="350" 
+                            className="w-[320px] h-[280px] md:w-[540px] md:h-[380px] lg:w-[640px] lg:h-[480px]"
+                            style={{ minHeight: "250px" }}>
+                        </iframe>
                     </div>
                 </div>
             </div>
+
 
             <div className="flex justify-center items-center mb-20 text-justify">
                 <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
