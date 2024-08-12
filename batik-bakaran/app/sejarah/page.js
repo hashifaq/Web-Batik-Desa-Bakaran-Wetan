@@ -41,7 +41,7 @@ export default function Sejarah() {
                 </div>
                 <div className="text-black font-poppins text-sm lg:text-xl leading-loose text-justify py-12 px-10 lg:px-44" style={{ lineHeight: "2" }}>
                     Untuk menyembunyikan identitasnya, Nyai Danowati membangun masjid tanpa mihrab dan mengganti namanya 
-                    menjadi "Nyai Ageng Siti Sabirah." Di sana, ia mengembangkan keahlian membatik dan mengajarkannya 
+                    menjadi Nyai Ageng Siti Sabirah. Di sana, ia mengembangkan keahlian membatik dan mengajarkannya 
                     kepada penduduk sekitar yang kemudian berkembang menjadi Batik Bakaran. Batik Tulis Bakaran dikenal 
                     dengan ciri khas warna gelap dan motif-motif unik seperti gandrung, bergat ireng, kedelai kecer, dan
                      gringsing. Setelah itu, batik bakaran terus berkembang hingga mencapai kejayaannya pada periode 1920 
