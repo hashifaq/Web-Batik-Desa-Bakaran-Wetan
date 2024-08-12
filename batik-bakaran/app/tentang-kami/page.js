@@ -160,7 +160,7 @@ export default function TentangKami() {
                     lokasi ke-13 pengrajin batik Bakaran tersebut telah
                     tercantum pada peta di atas. Jika Anda memerlukan informasi
                     lebih lanjut atau bantuan terkait batik Bakaran, Museum
-                    Batik Sudewi dapat menjadi tempat rujukan yang tepat.
+                    Batik Sudewi dapat menjadi tempat rujukan yang tepat.
                 </div>
             </div>
             <Footer />
