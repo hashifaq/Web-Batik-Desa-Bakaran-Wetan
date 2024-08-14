@@ -51,7 +51,7 @@ export default function TentangKami() {
             </div>
             <div className="flex justify-center items-center text-justify">
                 <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
-                    Di Museum Batik Bakaran Sudewi, pengunjung dapat menikmati
+                    Di museum ini, pengunjung dapat menikmati
                     keindahan kain batik dan melihat berbagai alat tradisional
                     yang digunakan dalam pembuatannya. Gambar di atas
                     menunjukkan alat pewarna alami dan peralatan lain yang
@@ -76,13 +76,11 @@ export default function TentangKami() {
             </div>
             <div className="flex justify-center items-center text-justify">
                 <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown">
-                    Museum Batik Bakaran Sudewi menampilkan beragam koleksi kain
-                    batik Bakaran serta alat-alat tradisional yang digunakan
-                    dalam pembuatannya. Gambar di atas menunjukkan ruang pameran
-                    yang terorganisir dengan baik, menampilkan berbagai motif
-                    batik khas Bakaran. Selain itu, museum ini juga menjelaskan
-                    proses pembuatan batik tulis Bakaran, memberikan pengalaman
-                    edukatif yang mendalam bagi para pengunjung.
+                    Gambar ini menunjukkan suasana dan keadaan museum yang tertata rapi di dalamnya. Pengunjung dapat 
+                    dengan leluasa menjelajahi koleksi batik yang beragam, memperhatikan detail dan motif unik dari 
+                    setiap kain. Selain itu, museum ini juga menjelaskan proses pembuatan batik tulis Bakaran, memberikan pengalaman
+                    edukatif bagi para pengunjung. Pencahayaan yang nyaman dan penataan ruang yang cermat menciptakan suasana yang nyaman, 
+                    membuat pengunjung merasa senang menjelajahi keindahan dan kekayaan budaya batik khas Bakaran.
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-7 md:gap-0 md:grid-cols-2 justify-items-center items-center mb-12 mt-16 lg:mb-16 lg:mt-24">
@@ -108,6 +106,29 @@ export default function TentangKami() {
                     simbol-simbol tradisional yang sarat makna. Motif-motif ini
                     mencerminkan keunggulan seni batik lokal dan keunikan budaya
                     Bakaran.
+                </div>
+            </div>
+            <div className="grid grid-cols-1 gap-7 md:gap-0 md:grid-cols-2 justify-items-center items-center mb-12 mt-16 lg:mb-16 lg:mt-24">
+                <div>
+                    <img
+                        src="/assets/mr.png"
+                        className="max-w-xs lg:max-w-md h-auto lg:-mr-36"
+                    />
+                </div>
+                <div>
+                    <img
+                        src="/assets/mrs.png"
+                        className="max-w-xs hidden md:block lg:max-w-md h-auto lg:-ml-36"
+                    />
+                </div>
+            </div>
+            <div className="flex justify-center items-center text-justify">
+                <div className="bg-grey px-7 py-3 md:px-10 md:py-5 text-xs leading-6 md:text-md md:leading-8 lg:leading-loose lg:max-w-7xl lg:px-5 lg:py-5 lg:text-lg font-semibold text-darkbrown ">
+                    Batik Bakaran di museum ini dibuat oleh para pengrajin yang memiliki keterampilan luar biasa dalam 
+                    seni membatik. Dengan ketelitian dan dedikasi tinggi, mereka mampu menciptakan kain batik yang 
+                    tidak hanya indah secara visual, tetapi juga sarat dengan makna dan filosofi yang mendalam. 
+                    Keterampilan mereka yang terasah dengan baik memastikan bahwa setiap detail pada batik ini 
+                    dieksekusi dengan sempurna, memberikan hasil akhir yang berkualitas tinggi dan bernilai seni tinggi.
                 </div>
             </div>
             <div className="grid grid-cols-1 gap-7 md:gap-0 md:grid-cols-2 justify-items-center items-center mb-12 mt-16 lg:mb-16 lg:mt-24">
