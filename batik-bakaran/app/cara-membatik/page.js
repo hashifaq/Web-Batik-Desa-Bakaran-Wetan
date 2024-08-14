@@ -21,13 +21,13 @@ export default function CaraMembatik() {
     }
 
     return (
-        <div className="flex min-h-screen flex-col justify-between bg-brown">
+        <div className="flex h-screen flex-col justify-between bg-darkbrown">
             <Navbar></Navbar>
-            <div className="relative h-full">
+            <div className="relative h-full md:h-[calc(100vh-25px)]">
                 <img
                     src="/assets/bg-cara.png"
                     alt="bg-cara-membatik"
-                    className="h-[80vh] md:h-screen object-cover"
+                    className="h-[80vh] md:h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-darkbrown opacity-80"></div>
 
@@ -45,7 +45,7 @@ export default function CaraMembatik() {
                 </div>
             </div>
             {isSmallScreen && (
-                <div className="flex flex-col gap-10 mt-4">
+                <div className="flex flex-col gap-10 mt-4 bg-brown">
                     <div className="flex items-center justify-center mt-2">
                         <div className="h-2 bg-yellow flex-[10]"></div>
                         <div className="px-6 text-4xl text-white font-bold font-zilla">
