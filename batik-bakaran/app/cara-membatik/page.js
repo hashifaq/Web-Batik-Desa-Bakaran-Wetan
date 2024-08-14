@@ -56,7 +56,6 @@ export default function CaraMembatik() {
                     <HasilCarousel></HasilCarousel>
                 </div>
             )}
-            <Footer></Footer>
         </div>
     );
 }
