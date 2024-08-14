@@ -1,6 +1,6 @@
 "use client";
 
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
+import { FaInstagram, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from "react";
 
@@ -22,8 +22,8 @@ export default function Footer() {
             <div className="line"></div>
             <div className="bg-darkbrown py-6 px-6 md:px-10 lg:px-20">
                 {isLargeScreen ? (
-                    <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-                        <div className="flex space-x-2 lg:space-x-4 bg-lightgrey py-2 px-4 rounded-full items-center justify-center">
+                    <div className="grid grid-cols-3 justify-items-center items-center gap-8">
+                        <div className="flex justify-self-start space-x-2 lg:space-x-4 bg-lightgrey py-2 px-4 rounded-full items-center justify-center">
                             <img
                                 src="/assets/logo-ugm.png"
                                 alt="Logo UGM"
@@ -43,7 +43,7 @@ export default function Footer() {
                         <p className="text-xs md:text-sm text-white">
                             © KKN Arung Juwana 2024
                         </p>
-                        <div className="flex gap-6 lg:gap-8">
+                        <div className="flex gap-6 lg:gap-8 justify-self-end">
                             <a
                                 href="https://www.instagram.com/museum_batikbakaran/"
                                 target="_blank"
@@ -59,6 +59,14 @@ export default function Footer() {
                                 className="w-12 h-12 bg-lightgrey rounded-full flex justify-center items-center hover:scale-95"
                             >
                                 <FaFacebookF className="text-black w-6 h-6" />
+                            </a>
+                            <a
+                                href="https://wa.me/6281326556552"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-12 h-12 bg-lightgrey rounded-full flex justify-center items-center hover:scale-95"
+                            >
+                                <FaWhatsapp className="text-black w-6 h-6" />
                             </a>
                             <a
                                 href="https://shopee.co.id/museumbatikbakaran"
@@ -114,6 +122,14 @@ export default function Footer() {
                                 className="w-12 h-12 bg-lightgrey rounded-full flex justify-center items-center hover:scale-95"
                             >
                                 <FaFacebookF className="text-black w-6 h-6" />
+                            </a>
+                            <a
+                                href="https://wa.me/6281326556552"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-12 h-12 bg-lightgrey rounded-full flex justify-center items-center hover:scale-95"
+                            >
+                                <FaWhatsapp className="text-black w-6 h-6" />
                             </a>
                             <a
                                 href="https://shopee.co.id/museumbatikbakaran"
