@@ -1,7 +1,12 @@
+"use client"; // Add this line to indicate that the component is a Client Component
+
+import { useEffect } from "react";
 import Navbar from "../components/navbar";
 import MotifCard from "../components/MotifCard";
 import { Zilla_Slab } from "next/font/google";
 import Footer from "../components/footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const zilla_Slab = Zilla_Slab({
     subsets: ['latin'],
@@ -9,13 +14,38 @@ const zilla_Slab = Zilla_Slab({
 });
 
 export default function RagamBatik() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200, 
+            offset: 100, 
+            delay: 100, 
+            easing: 'ease-in-out', 
+            once: true, 
+            mirror: false, 
+        });
+
+        // Parallax effect on scroll
+        const handleScroll = () => {
+            const parallax = document.querySelector(".parallax-bg");
+            if (parallax) {
+                parallax.style.transform = `translateY(${window.scrollY * 0.5}px)`;
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
         <div className="flex min-h-screen flex-col bg-brown">
             <Navbar />
-            <div className="relative pb-40">
+            <div className="relative pb-40 overflow-hidden">
                 <div 
-                    className="absolute inset-0 bg-center opacity-20 z-0" 
-                    style={{ backgroundImage: "url('/assets/bg-jenis.png')" }}
+                    className="absolute inset-0 bg-center opacity-20 z-0 parallax-bg" 
+                    style={{ backgroundImage: "url('/assets/bg-jenis.png')", backgroundSize: 'cover', backgroundAttachment: 'fixed' }}
                 ></div>
                 <div className="relative z-10 flex flex-col md:gap-20 lg:gap-56 md:flex-row">
                     <div className={`flex justify-center font-bold text-4xl md:text-6xl mt-6 md:mt-14 md:ml-10 lg:text-8xl xl:ml-20 2xl:ml-40 ${zilla_Slab.className}`}>
@@ -59,79 +89,93 @@ export default function RagamBatik() {
                         title="Gandrung Kapirangu" 
                         filosofi="Cinta Lama Tumbuh" 
                         harapan="Pemakai batik ini akan mendapatkan keharmonisan dalam segala hal."
+                        data-aos="fade-up"
                     />
                     <MotifCard 
                         imgSrc="/assets/2.jpg" 
                         title="Blebar Merak Ngigel" 
                         filosofi="Lambang Kejantanan" 
                         harapan="Pemakai batik ini akan menjadi suri tauladan, karena bisa mengayomi & melindungi pasangan serta keluarganya."
+                        data-aos="fade-up"
                     />
                     <MotifCard  
                         imgSrc="/assets/3.jpg" 
                         title="Manggaran" 
+                        data-aos="fade-up"
                         filosofi="Bunga Kelapa yang Baru Mekar" 
                         harapan="Kebahagiaan dalam rumah tangga, mendapatkan keturunan yang baik dan peningkatan ekonomi."
                     />
                     <MotifCard  
                         imgSrc="/assets/4.jpg" 
                         title="Magel Ati" 
+                        data-aos="fade-up"
                         filosofi="Rasa Kecewa" 
                         harapan="Mengingatkan pemakai batik ini untuk tidak mengecewakan pasangannya atau orang lain."
                     />
                     <MotifCard  
                         imgSrc="/assets/5.jpg" 
                         title="Padas Gempal" 
+                        data-aos="fade-up"
                         filosofi="Keanekaragaman Kehidupan" 
                         harapan="Menjadi orang yang bijaksana dalam menghadapi perbedaan dan keanekaragaman dalam kehidupan."
                     />
                     <MotifCard  
                         imgSrc="/assets/6.jpg" 
                         title="Rujak Sente" 
+                        data-aos="fade-up"
                         filosofi="Hidup manusia memiliki banyak halangan tantangan maupun keberuntungan yang bercampur menjadi satu."
                     />
                     <MotifCard  
                         imgSrc="/assets/7.jpg" 
                         title="Piring Sedapur" 
+                        data-aos="fade-up"
                         filosofi="Gotong Royong" 
                         harapan="Menumbuhkan jiwa sosial dan saling tolong menolong."
                     />
                     <MotifCard 
                         imgSrc="/assets/8.jpg" 
                         title="Sido Mukti" 
+                        data-aos="fade-up"
                         filosofi="Harapan mendapatkan kemulyaan" 
                     />
                     <MotifCard  
                         imgSrc="/assets/9.jpg" 
                         title="Liris" 
+                        data-aos="fade-up"
                         filosofi="Hujan Rintik-Rintik" 
                         harapan="Ketabahan dalam menjalani hidup."
                     />
                     <MotifCard  
                         imgSrc="/assets/10.jpg" 
                         title="Ungker Canthel" 
+                        data-aos="fade-up"
                         filosofi="Gotong Royong" 
                         harapan="Dalam hidup bermasyarakat haruslah saling membantu satub sama lain."
                     />
                     <MotifCard  
                         imgSrc="/assets/11.jpg" 
                         title="Kedele Kecer" 
+                        data-aos="fade-up"
                         filosofi="Kemakmuran" 
                         harapan="Mendapatkan rejeki yang melimpah ruah dan kemakmuran."
                     />
                     <MotifCard 
                         imgSrc="/assets/12.jpg" 
                         title="Bregat Ireng" 
+                        data-aos="fade-up"
                         filosofi="Rasa Duka" 
                         harapan="Mengingatkan kepada semua orang bahwa dalam kehidupan pada akhirnya akan kembali kepada sang pencipta."
                     />
                     <MotifCard  
                         imgSrc="/assets/13.jpg" 
                         title="Sido Mulyo" 
+                        data-aos="fade-up"
                         harapan="Supaya keluarga yang dibina selalu terus memperoleh kemulyaan walau memperoleh satu kesusahan."
                     />
                     <MotifCard  
                         imgSrc="/assets/14.jpg" 
                         title="Mina Tani" 
+                        data-aos="fade-up"
                         filosofi="Kemakmuran Masyarakat Kabupaten Pati" 
                         harapan="Masyarakat Pati akan memperoleh kemakmuran disegala bidang usahanya."
                     />
