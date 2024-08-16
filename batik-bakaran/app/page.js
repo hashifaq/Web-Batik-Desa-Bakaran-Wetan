@@ -1,21 +1,42 @@
-import Image from "next/image";
+"use client"
+
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/navbar";
 import HomeCarousel from "./components/HomeCarousel";
 import FeatureSection from "./components/FeatureSection";
 import Footer from "./components/footer";
 
 export default function Home() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200, // Durasi animasi
+            offset: 100, // Jarak sebelum animasi dimulai
+            delay: 100, // Delay sebelum animasi dimulai
+            easing: 'ease-in-out', // Jenis easing untuk animasi
+            once: true, // Apakah animasi hanya terjadi sekali atau berulang setiap kali di-scroll
+            mirror: false, // Apakah elemen dianimasikan ketika mereka digulir kembali ke dalam pandangan
+        });
+    }, []);
+
     return (
-        <main>
-            <Navbar></Navbar>
-            <HomeCarousel />
-            <div className="flex flex-col items-center lg:flex-row bg-white px-6 md:px-20 py-8 md:py-16 gap-8 lg:gap-20">
+        <main className="bg-white">
+            <Navbar/>
+            <HomeCarousel/>
+            
+            <div 
+                className="flex flex-col items-center lg:flex-row bg-white px-6 md:px-20 py-8 md:py-16 gap-8 lg:gap-20"
+                data-aos="fade-up"
+            >
                 <img
                     src="/assets/logo.png"
                     alt="Logo Museum"
                     className="object-scale-down max-w-72 md:max-w-96"
                 />
-                <div className="flex flex-col text-darkbrown gap-4 justify-center lg:gap-8">
+                <div 
+                    className="flex flex-col text-darkbrown gap-4 justify-center lg:gap-8"
+                >
                     <h2 className="text-xl md:text-3xl font-bold leading-relaxed md:leading-relaxed text-center lg:text-left font-zilla">
                         Museum Batik Bakaran Sudewi: Melestarikan Warisan,
                         Menginspirasi Generasi!
@@ -32,13 +53,18 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="bg-lightgrey p-8 md:p-12 lg:p-20 text-center">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-darkbrown font-zilla">
+            <div 
+                className="bg-lightgrey p-8 md:p-12 lg:p-20 text-center"
+            >
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-darkbrown font-zilla"
+                data-aos="fade-in">
                     Kenapa Harus ke Museum Batik Bakaran?
                 </h2>
             </div>
-            {/* ini mau dimasukin link youtube */}
-            <div className="flex flex-col bg-white px-10 md:px-20 lg:px-40 py-12 md:py-20 lg:py-24 gap-10 md:gap-16 lg:gap-20 font-poppins">
+            <div 
+                className="flex flex-col bg-white px-10 md:px-20 lg:px-40 py-12 md:py-20 lg:py-24 gap-10 md:gap-16 lg:gap-20 font-poppins"
+                data-aos="fade-up"
+            >
                 <iframe
                     src="https://www.youtube.com/embed/G5rSa_b1uak?si=sChEYWGnRff0Rzm_"
                     title="Video Profil Museum Batik Bakaran Sudewi"
@@ -69,7 +95,7 @@ export default function Home() {
                     description="Tidak perlu repot mencari pengrajin batik satu per satu. Di museum kami, Anda dapat membeli batik tulis Bakaran dengan harga yang sama seperti di pengrajin. Dukung langsung ekonomi lokal dengan setiap pembelian Anda."
                 />
             </div>
-            <Footer />
+            <Footer/>
         </main>
     );
 }

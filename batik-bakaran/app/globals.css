@@ -92,7 +92,9 @@ body {
     color: var(--brown);
   }
 
-/* .mbbs {
-  width: 250;
-  height: 80
-} */
+  .parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
