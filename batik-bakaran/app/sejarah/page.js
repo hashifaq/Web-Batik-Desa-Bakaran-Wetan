@@ -29,7 +29,7 @@ export default function Sejarah() {
             <div className="relative z-20 flex flex-col min-h-screen">
                 <Navbar />
                 <div 
-                    className="flex flex-col gap-y-3 lg:gap-y-7 justify-center items-center text-4xl md:text-6xl lg:text-8xl text-darkbrown font-bold font-zilla py-7 md;py-0 m-8 lg:m-24" 
+                    className="flex flex-col gap-y-3 lg:gap-y-7 justify-center items-center text-3xl sm:text-4xl md:text-6xl lg:text-8xl text-darkbrown font-bold font-zilla py-7 md;py-0 m-8 lg:m-24" 
                     data-aos="fade-up" 
                 >
                     <div>
